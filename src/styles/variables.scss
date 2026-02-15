@@ -7,9 +7,7 @@ $border-width: 1px;
 $calendar-padding: 10px;
 $day-font-size: 30px;
 $columns: 7;
-$calendar-width: calc(
-  $columns * ($day-size + $gap) + $calendar-padding * 2 - $gap
-);
+$calendar-width: calc($columns * $day-size + ($columns - 1) * $gap + 2 * 10px);
 $days: (
   'mon': 1,
   'tue': 2,
