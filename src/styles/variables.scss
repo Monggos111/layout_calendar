@@ -6,6 +6,7 @@ $gap: 1px;
 $border-width: 1px;
 $calendar-padding: 10px;
 $day-font-size: 30px;
+$day-font-famely: Arial, sans-serif;
 $columns: 7;
 $calendar-width: calc($columns * $day-size + ($columns - 1) * $gap + 2 * 10px);
 $days: (
